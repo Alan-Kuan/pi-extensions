@@ -1,0 +1,23 @@
+{
+  "name": "skills-manager",
+  "version": "1.0.0",
+  "description": "Pi extension to view, toggle, and insert project-scoped and user-scoped skills via /skills command",
+  "type": "module",
+  "main": "index.ts",
+  "scripts": {
+    "lint": "oxlint --fix index.ts",
+    "format": "oxlint format index.ts"
+  },
+  "pi": {
+    "extensions": [
+      "./index.ts"
+    ]
+  },
+  "dependencies": {
+    "fuzzysort": "^3.1.0"
+  },
+  "devDependencies": {
+    "oxfmt": "^0.63.0",
+    "oxlint": "^1.78.0"
+  }
+}
