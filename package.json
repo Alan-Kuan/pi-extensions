@@ -1,7 +1,20 @@
 {
-    "name": "alan-kuan-pi-extensions",
-    "private": true,
-    "pi": {
-        "extensions": ["./extensions"]
-    }
+  "name": "alan-kuan-pi-extensions",
+  "private": true,
+  "scripts": {
+    "lint": "oxlint --fix './**/*.ts'",
+    "format": "oxfmt --write './**/*.ts'"
+  },
+  "dependencies": {
+    "fuzzysort": "^4.0.2"
+  },
+  "devDependencies": {
+    "oxfmt": "^0.66.0",
+    "oxlint": "^1.81.0"
+  },
+  "pi": {
+    "extensions": [
+      "./extensions"
+    ]
+  }
 }
