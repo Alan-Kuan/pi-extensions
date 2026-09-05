@@ -9,4 +9,4 @@ pi install git:github.com/Alan-Kuan/pi-extensions
 
 | Extension | Description |
 | --- | --- |
-| skills-manager | Pi extension to view, toggle, and insert project-scoped and user-scoped skills via /skills command |
+| [skills-manager](./extensions/skills-manager/) | Pi extension to view, toggle, and insert project-scoped and user-scoped skills via /skills command |
