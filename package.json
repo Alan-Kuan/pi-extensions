@@ -1,0 +1,7 @@
+{
+    "name": "alan-kuan-pi-extensions",
+    "private": true,
+    "pi": {
+        "extensions": ["./extensions"]
+    }
+}
